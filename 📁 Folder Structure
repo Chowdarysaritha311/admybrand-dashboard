@@ -1,0 +1,9 @@
+admybrand-dashboard/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+└── package.json
