@@ -7,3 +7,51 @@ admybrand-dashboard/
 │   └── main.jsx
 ├── tailwind.config.js
 └── package.json
+
+admybrand-insights/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── dashboard/
+│   │   │   ├── DataTable/
+│   │   │   │   ├── DataTable.tsx
+│   │   │   │   ├── PaginationControls.tsx
+│   │   │   │   └── useTableSort.ts
+│   │   │   ├── charts/
+│   │   │   │   ├── LineChart.tsx
+│   │   │   │   ├── BarChart.tsx
+│   │   │   │   └── DonutChart.tsx
+│   │   │   ├── filters/
+│   │   │   │   ├── DateRangeFilter.tsx
+│   │   │   │   └── AdvancedFilters.tsx
+│   │   │   ├── exports/
+│   │   │   │   ├── ExportButton.tsx
+│   │   │   │   ├── exportToPDF.ts
+│   │   │   │   └── exportToCSV.ts
+│   │   │   ├── MetricCard.tsx
+│   │   │   ├── LoadingSkeleton.tsx
+│   │   │   └── RealTimeUpdater.tsx
+│   │   └── ui/
+│   │       ├── button.tsx
+│   │       ├── table.tsx
+│   │       └── ... (other shadcn components)
+│   ├── lib/
+│   │   ├── constants/
+│   │   │   └── mockData.ts
+│   │   ├── hooks/
+│   │   │   └── useSimulatedRealtime.ts
+│   │   └── utils/
+│   │       └── dataUtils.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── types/
+│       └── types.ts
+├── next.config.js
+├── package.json
+├── README.md
+├── tsconfig.json
+└── tailwind.config.js
